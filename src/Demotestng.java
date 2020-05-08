@@ -9,12 +9,13 @@ public class Demotestng {
 	public void print()
 	{
 		System.out.println("hello world");
+		System.out.println("File uploaded");
 		}
 	
 	@Test
 	public void add()
 	{
-		sum(50,60);
+		sum(50,60,70);
 		
 }
 	public void sum(int a, int b)
